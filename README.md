@@ -40,6 +40,7 @@ wordtranslator/             # Root project directory
 ├── requirements.txt        # Required Python packages  
 └── manage.py               # Django management script
 ---
+```
 ## 🔧 Installation  
 
 ### 1️⃣ Clone the Repository  
