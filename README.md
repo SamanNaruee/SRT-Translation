@@ -51,15 +51,17 @@ cd wordtranslator
 
 
 ### 2️⃣ Create a Virtual Environment
-
+``` bash
 python -m venv venv
+```
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 
+
 ### 3️⃣ Install Dependencies
-
+``` bash
 pip install -r requirements.txt
-
+```
 
 ### 4️⃣ Set Up Environment Variables
 Create a `.env` file and add API keys:
@@ -71,14 +73,18 @@ GOOGLE_TRANSLATE_API_KEY=your_api_key
 
 
 ### 5️⃣ Apply Database Migrations
-
+``` bash
+python manage.py makemigrations
+```
+``` bash
 python manage.py migrate
+```
 
 
 ### 6️⃣ Run the Server
-
+``` bash
 python manage.py runserver
-
+```
 
 ## 🔥 Usage
 
@@ -86,14 +92,14 @@ python manage.py runserver
 **Endpoint:** GET `/api/translate/{word}/`
 
 Example Response:
-
+``` bash
 {
     "word": "journey",
     "definition": "An act of traveling from one place to another.",
     "example": "The journey was long and tiring.",
     "persian_translation": "سفر طولانی و خسته‌کننده بود."
 }
-
+```
 
 ### 2️⃣ Upload SRT File for Word Analysis
 **Endpoint:** POST `/api/upload-srt/`
@@ -137,4 +143,10 @@ This project is open-source under the MIT License.
 ## 📧 Contact
 For any issues or contributions, feel free to open a GitHub issue or contact the developer.
 
-Email: samannaruee@gmail.com, narueesaman@gmail.com
+Emails: 
+``` bash
+samannaruee@gmail.com
+```
+``` bash
+narueesaman@gmail.com
+```
