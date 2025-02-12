@@ -17,10 +17,7 @@ This project is a **Django REST Framework (DRF) API** that:
 ---
 
 ## 🏗 Project Structure  
-
-2. **Updating Your README:**  
-Replace your current project structure section in the README with a properly formatted code block like shown above.   
-
+ 
 ## Project Structure  
 ```plaintext  
 wordtranslator/             # Root project directory  
