@@ -17,24 +17,28 @@ This project is a **Django REST Framework (DRF) API** that:
 ---
 
 ## 🏗 Project Structure  
-wordtranslator/                     # Root project directory
-├── api/                            # Main Django app
-│   ├── migrations/                 # Database migrations
-│   ├── models.py                   # Word storage model
-│   ├── views.py                    # API views
-│   ├── urls.py                     # API routes
-│   ├── serializers.py              # DRF serializers
-│   ├── utils/                      # Helper functions
-│   │   ├── srt_parser.py           # Extracts text from SRT files
-│   │   ├── vocabulary_levels.py    # Determines CEFR difficulty
-│   │   └── pdf_generator.py        # Generates PDF reports
-│   └── media/                      # Directory for uploaded SRT files
-├── static/                         # Static files (if needed)
-├── templates/                      # HTML templates (if needed for admin UI)
-├── requirements.txt                # Required Python packages
-├── manage.py                       # Django management script
-└── README.md                       # Project documentation
 
+2. **Updating Your README:**  
+Replace your current project structure section in the README with a properly formatted code block like shown above.   
+
+## Project Structure  
+```plaintext  
+wordtranslator/             # Root project directory  
+├── api/                    # Main Django app  
+├── migrations/             # Database migrations  
+├── models.py               # Word storage model  
+├── views.py                # API views  
+├── urls.py                 # API routes  
+├── serializers.py          # DRF serializers  
+├── utils/                  # Helper functions  
+│   ├── srt_parser.py       # Extracts text from SRT files  
+│   └── vocabulary_levels.py # Determines CEFR difficulty  
+├── pdf_generator.py        # Generates PDF reports  
+├── media/                  # Directory for uploaded SRT files  
+├── static/                 # Static files (if needed)  
+├── templates/              # HTML templates (if needed for admin UI)  
+├── requirements.txt        # Required Python packages  
+└── manage.py               # Django management script
 ---
 ## 🔧 Installation  
 
