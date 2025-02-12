@@ -40,7 +40,7 @@ wordtranslator/                     # Root project directory
 
 ### 1️⃣ Clone the Repository  
 
-git clone https://github.com/your-username/wordtranslator.git
+git clone https://github.com/SamanNaruee/SRT-Translation.git
 cd wordtranslator
 
 
@@ -130,3 +130,5 @@ This project is open-source under the MIT License.
 
 ## 📧 Contact
 For any issues or contributions, feel free to open a GitHub issue or contact the developer.
+
+Email: samannaruee@gmail.com, narueesaman@gmail.com
