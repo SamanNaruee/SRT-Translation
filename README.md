@@ -41,9 +41,13 @@ wordtranslator/             # Root project directory
 ## 🔧 Installation  
 
 ### 1️⃣ Clone the Repository  
-
+``` bash
 git clone https://github.com/SamanNaruee/SRT-Translation.git
+```
+
+``` bash
 cd wordtranslator
+```
 
 
 ### 2️⃣ Create a Virtual Environment
